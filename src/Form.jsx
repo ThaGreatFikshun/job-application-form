@@ -53,42 +53,60 @@ class Form extends React.Component {
         </div>
   </div><br/>
   <legend>LAST HELD POSITION</legend>
+  <div className = 'row'>
+    <div className = 'col'>
   <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Employer/Company Name" />
     </div>
     </div>
+    </div>
+    <div className = 'col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Address" />
     </div>
     </div>
+    </div>
+    <div className = 'col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Phone Number like 07123456789" />
     </div>
     </div>
+    </div>
+    </div>
+    <div className = 'row'>
+    <div className = 'col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Email like fikshun@gmail.com" />
     </div>
     </div>
+    </div>
+    <div className = 'col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Which Responsibilities Did You Take...like Cashier" />
     </div>
     </div>
+    </div>
+    </div>
+    <div className = 'row'>
+    <div className = 'col'>
     <div class="row margin-difference">
     <div class="col">
     <label for="birthday">From:</label>
   <input type="date" id="birthday" name="birthday" />   
-
-  
+  </div>
+  <div className = 'col'>
   <label for="birthday">To:</label>
   <input type="date" id="birthday" name="birthday" />
     </div>
-    
-</div><br />
+    </div>
+</div>
+</div>
+<br />
     <legend>PERSONAL CONTACT</legend>
     <div class="row margin-difference">
     <div class="col">
@@ -135,52 +153,6 @@ class Form extends React.Component {
     </div>
 </form>
 </div>
-         
-
-        //   <legend> ANY PLACE WORKED FOR PREVIOUSLY</legend>
-        //   <tr>
-        //     <td>
-        //   YES:<input name="Relocate" type="radio" defaultValue="Yes" defaultChecked="checked" />  <br />  <br />  
-        //   NO:<input name="Relocate" type="radio" defaultValue="No" />
-        //   </td></tr>
-        //   </fieldset><fieldset>
-      
-        //   <legend>LAST HELD POSITION</legend>
-        //   <tr>
-        //     <td>
-        //   Employer/Company name: <input type="text" name="field1" placeholder="Enter Company/Employer name" required/><br /></td></tr>
-        //   <tr>
-        //     <td>Address: <input type="text" name="field2" placeholder="Enter Your Home Addresss "required /><br /></td></tr>
-        //     <tr>
-        //     <td>Phone: <input type="text" name="field1" placeholder="Enter Your Phone number " required/><br /></td></tr>
-        //     <tr>
-        //     <td>Email: <input type="text" name="field2" placeholder="Enter Your Email Address " required /><br /></td></tr>
-        //     <tr>
-        //     <td>Responsibilities: <input type="text" name="field2" placeholder="what position " required/><br /></td></tr>
-        //     <tr>
-        //     <td>From : <input type="date" name="field1" placeholder="date"  required/> To: <input type="date" name="field1" placeholder="date or year " required/></td></tr>
-        //     </fieldset><fieldset>
-        //   <legend>PERSONAL CONTACT</legend>
-
-        //   <tr>
-        //     <td>Full name:<input type="text" name="field1" placeholder="Enter Your Full name" required/><br/></td></tr>
-        //     <tr>
-        //     <td>Phone Number:<input type="text" name="field1" placeholder="Enter Your Phone number " required/><br/></td></tr>
-
-        //     <tr>
-        //     <td>Address:<input type="text" name="field2" placeholder="Enter Your Home Addresss " required/><br/></td></tr>
-        //     <tr>
-        //     <td>Email Address:<input type="email" name="field2" placeholder="Enter Your Email Address " required/><br/></td></tr>
-        //     <tr>
-        //     <td>Attach Resume
-        //   <input type="file" class="resume" id="resume"></input> </td>
-        //   <td>Attach Any other Document
-        //   <input type="file" class="document" id="documents"></input></td></tr>
-        //   </fieldset>
-        // <div id="submit">
-        // <input type="submit" value="Apply" /></div>
-          
-        //  </div>
           
         );
 
