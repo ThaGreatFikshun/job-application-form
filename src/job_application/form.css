@@ -1,0 +1,32 @@
+.change-width{
+  width: 60vw;
+}
+#header{
+    /* background-color: green; */
+    
+    width: 60%;
+    height: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+   
+
+}
+#heading{
+  text-align: center;
+  background-color: #9EE359;
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+th {
+  font-weight: bold;
+}
+.margin-difference{
+  margin-top: 20px !important;
+}

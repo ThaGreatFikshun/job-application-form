@@ -108,24 +108,35 @@ class Form extends React.Component {
 </div>
 <br />
     <legend>PERSONAL CONTACT</legend>
+    <div className='row'>
+    <div className='col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Full Names like Fikshun.." />
     </div>
     </div>
+    </div>
+    <div className='col'>
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Phone Number like 07123456.." />
     </div>
     </div>
+    </div>
+    </div>
+    <div className="row">
+    <div className="col">
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Address...P.O BOX" />
     </div>
     </div>
+    </div>
+    <div className="col">
     <div class="row margin-difference">
     <div class="col">
       <input type="text" class="form-control" placeholder="Enter Your Email Address like fikshun@gmail.com" />
+    </div>
     </div>
     </div><br />
     <legend>DOCUMENTS TO ATTACH</legend>
@@ -146,9 +157,11 @@ class Form extends React.Component {
     if yes, click Apply button below.." disabled/>
     </div>
     </div>
+    <br/><br/>
     <div class="row margin-difference" id="bttn">
      <div class="btn">
     <input type="submit" class="form-control" placeholder="Apply"/>
+    </div>
     </div>
     </div>
 </form>
